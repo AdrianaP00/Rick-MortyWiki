@@ -4,7 +4,7 @@ import styles from "./Card.module.scss";
         let display;
       
         if ({results}) {
-                display = results.map((x) => {
+                display = results?.map((x) => {
                 let { id, image, name, status, location } = x;
               
                   return (

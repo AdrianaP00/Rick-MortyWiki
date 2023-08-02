@@ -3,7 +3,7 @@ import React from "react";
 const FilterBTN = ({ input, task, updatePageNumber, index, name }) => {
   return (
     <div>
-      <style jsx>
+      {/* <style jsx>
         {`
           .x:checked + label {
             background-color: #0b5ed7;
@@ -13,7 +13,7 @@ const FilterBTN = ({ input, task, updatePageNumber, index, name }) => {
             display: none;
           }
         `}
-      </style>
+      </style> */}
 
       <div className="form-check">
         <input
@@ -28,7 +28,7 @@ const FilterBTN = ({ input, task, updatePageNumber, index, name }) => {
             updatePageNumber(1);
           }}
           className="btn btn-outline-primary"
-          for={`${name}-${index}`}
+          htmlFor={`${name}-${index}`}
         >
           {input}
         </label>
