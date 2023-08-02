@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Search.module.scss";
+import styles from "./Search";
 
 const Search = ({ setSearch, updatePageNumber }) => {
   let searchBtn = (e) => {
