@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
-import Home from "./Api";
+import Home from "./components/Api";
 import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar/Navbar";
 

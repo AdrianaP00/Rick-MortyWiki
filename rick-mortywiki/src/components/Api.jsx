@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Search from "./components/Search/Search";
-import Card from "./components/Card/Card";
-import Pagination from "./components/Pagination/Pagination";
-import Filter from "./components/Filter/Filter";
+import Search from "./Search/Search";
+import Card from "./Card/Card";
+import Pagination from "./Pagination/Pagination";
+import Filter from "./Filter/Filter";
 const Home = () => {
     let [pageNumber, updatePageNumber] = useState(1);
     let [status, updateStatus] = useState("");
@@ -12,7 +12,6 @@ const Home = () => {
     let [search, setSearch] = useState("");
     let { info, results } = fetchedData;
   
-    console.log(results, "results")
     let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}&name=${search}&status=${status}&gender=${gender}&species=${species}`;
   
     useEffect(() => {
