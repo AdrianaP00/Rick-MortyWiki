@@ -1,3 +1,6 @@
+#Rick&Morty Wiki
+![Demo mobile gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXRuOThnOHozc3BqNmZubm1jdmtlOWU5MW14cjFhcW8yYXlsaXN0bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QXxpwsYmcOnd1tHIe8/giphy.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
